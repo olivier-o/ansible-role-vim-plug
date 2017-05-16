@@ -1,0 +1,5 @@
+---
+- hosts: local
+
+  roles:
+    - olivier-o.vim-plug

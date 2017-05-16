@@ -1,0 +1,9 @@
+---
+- name: Ensure Vim is installed.
+  homebrew: name=vim state=present
+
+- name: Run PlugInstall
+  shell: vim +PlugInstall +qall
+
+- name: Run PluginClean
+  shell: vim '+PlugClean!' +qall
