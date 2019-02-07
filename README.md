@@ -1,6 +1,6 @@
 # Ansible Role: Plug
 
-Install Plug (minimalist Vim plugin Manager), and install any plugin listed in vim/config/plugins.vimrc 
+Install Plug (minimalist Vim plugin Manager) using Homebrew, and install any plugin listed in vim/config/plugins.vimrc 
 
 ## Requirements
 
