@@ -16,7 +16,7 @@ The GitHub repository for vim-plug
 
 The path where Plug will be installed
 
-  vim_plug_list: "{{ ansible_user_dir }}/.vim/config/plugins.virmc"
+  vim_plug_list: "{{ ansible_user_dir }}/.vim/config/plugins.vimrc"
 
 The path where PlugInstall will find the plugin list to install
 
